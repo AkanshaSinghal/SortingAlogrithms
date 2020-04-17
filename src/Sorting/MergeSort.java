@@ -1,30 +1,14 @@
+package Sorting;
+
+
 import java.util.ArrayList;
 
 public class MergeSort {
 	
 	public static ArrayList<Integer> arr = new ArrayList<Integer>();
-
-	
-    public static void main(String []args){
-        arr.add(10);
-        arr.add(30);
-        arr.add(15);
-        arr.add(4);
-        arr.add(19);
-        arr.add(28);
-        arr.add(13);
-        arr.add(16);
-        arr.add(12);
-        arr.add(17);
-        arr.add(3);
-       mergeSort(0,arr.size()-1);
-        System.out.println(arr);
-       
-        
-     }
      
      
-     public static void mergeSort(int x,int y){
+     public void mergeSort(int x,int y){
     	 
          if(x == y){
              
